@@ -31,7 +31,7 @@ function Navbar() {
             </div>
             <nav className="relative">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex items-center justify-between h-16 w-full">
+                    <div className="flex items-center justify-between h-28 w-full">
                         <div className="flex items-center justify-around w-full">
                             <div className="flex-shrink-0">
                                 <Image src="/image/logo.png" alt="Logo" width={115} height={34} />
@@ -75,7 +75,7 @@ function Navbar() {
                                     <a
                                         href="#"
                                         className="text-gray-800 hover:bg-[#FFF1DA] border border-gray-800
-                                    hover:text-gray-800 px-3 py-2 rounded-md text-[17px] font-normal"
+                                    hover:text-gray-800 px-4 py-1.5 rounded-md text-[17px] font-normal"
                                     >
                                         Sign up
                                     </a>

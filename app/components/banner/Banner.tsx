@@ -10,12 +10,6 @@ function Banner() {
             <div className='flex flex-col lg:flex-row items-center relative gap-6 lg:gap-14 w-[80%] mx-auto mt-10 lg:mt-12 xl:mt-20'>
                 <div className="flex-1 flex flex-col gap-6 lg:gap-11 ">
                     <h4 className='banner-text-1 font-bold text-base sm:text-lg lg:text-xl leading-7 text-[#DF6951] uppercase'>Best Destinations around the world</h4>
-                    {/* <Image src="/image/bannerUnderline.png" alt="underline banner" width={385} height={12} /> */}
-                    {/* position: absolute;
-                    width: 385px;
-                    height: 12px;
-                    left: 393px;
-                    top: 340px; */}
                     <h1 className='banner-text-2 text-[#181E4B] text-5xl md:text-6xl 
                     lg:leading-[70px] xl:text-[84px] xl:leading-[89px] font-bold relative'>
                         Travel, enjoy<Image src="/image/bannerUnderline.png" alt="underline banner" width={385} height={12} /> and live a new and full life</h1>
@@ -32,9 +26,16 @@ function Banner() {
                         </span>
                     </div>
                 </div>
+                    
                 <div className="hidden flex-1 lg:inline ">
-                    <div className="absolute top-0 ">
-                        <Image src="/image/banner.png" width={656} height={872} alt='Banner'/>
+                    <div className="absolute -top-3 ">
+                        <div className='absolute -left-12'>
+                            <Image src="/image/plane.png" alt="plane1" width={138} height={95} />
+                        </div>
+                        <div className='absolute -right-7 top-7'>
+                            <Image src="/image/plane2.png" alt="plane2" width={138} height={95} />
+                        </div>
+                        <Image src="/image/banner.png" width={656} height={872} alt='Banner' className='relative -top-10 '/>
                     </div>
                 </div>
             </div>
