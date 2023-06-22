@@ -37,7 +37,7 @@ function Navbar() {
                                 <Image src="/image/logo.png" alt="Logo" width={115} height={34} />
                             </div>
                             <div className="hidden md:block ">
-                                <div className="ml-10 flex items-baseline space-x-9">
+                                <div className="ml-2 xl:ml-10 flex items-baseline lg:space-x-5 xl:space-x-9">
                                     <a
                                         href="#"
                                         className=" hover:bg-[#FFF1DA] text-gray-800 px-3 py-2 rounded-md text-[17px] font-normal"
@@ -146,50 +146,50 @@ function Navbar() {
                 >
                     {(ref) => (
                         <div className="md:hidden" id="mobile-menu">
-                            <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                            <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border  shadow-md">
                                 <a
                                     href="#"
-                                    className="hover:bg-[#FFF1DA] text-gray-800 block px-3 py-2 rounded-md text-base font-medium"
+                                    className="hover:bg-[#1F2937] hover:text-neutral-100 text-gray-800 block px-3 py-2 rounded-md text-base font-medium"
                                 >
                                     Destinations
                                 </a>
 
                                 <a
                                     href="#"
-                                    className="text-gray-800 hover:bg-[#FFF1DA] hover:text-gray-800 block px-3 py-2 rounded-md text-base font-medium"
+                                    className="text-gray-800 hover:bg-[#1F2937] hover:text-neutral-100 block px-3 py-2 rounded-md text-base font-medium"
                                 >
                                     Hotels
                                 </a>
 
                                 <a
                                     href="#"
-                                    className="text-gray-800 hover:bg-[#FFF1DA] hover:text-gray-800 block px-3 py-2 rounded-md text-base font-medium"
+                                    className="text-gray-800 hover:bg-[#1F2937] hover:text-neutral-100 block px-3 py-2 rounded-md text-base font-medium"
                                 >
                                     Flights
                                 </a>
 
                                 <a
                                     href="#"
-                                    className="text-gray-800 hover:bg-[#FFF1DA] hover:text-gray-800 block px-3 py-2 rounded-md text-base font-medium"
+                                    className="text-gray-800 hover:bg-[#1F2937] hover:text-neutral-100 block px-3 py-2 rounded-md text-base font-medium"
                                 >
                                     Bookings
                                 </a>
 
                                 <a
                                     href="#"
-                                    className="text-gray-800 hover:bg-[#FFF1DA] hover:text-gray-800 block px-3 py-2 rounded-md text-base font-medium"
+                                    className="text-gray-800 hover:bg-[#1F2937] hover:text-neutral-100 block px-3 py-2 rounded-md text-base font-medium"
                                 >
                                     Login
                                 </a>
                                 <a
                                     href="#"
-                                    className="text-gray-800 hover:bg-[#FFF1DA] border border-gray-800 inline-block hover:text-gray-800 px-3 py-2 rounded-md text-base font-medium"
+                                    className="text-gray-800 hover:bg-[#1F2937] border border-gray-800 inline-block hover:text-neutral-100 px-3 py-2 rounded-md text-base font-medium"
                                 >
                                     Sign up
                                 </a>
                                 <a
                                     href="#"
-                                    className="text-gray-800 hover:bg-[#FFF1DA] hover:text-gray-800 block px-3 py-2 rounded-md text-base font-medium"
+                                    className="text-gray-800 hover:bg-[#1F2937] hover:text-neutral-100 block px-3 py-2 rounded-md text-base font-medium"
                                 >
                                     EN
                                 </a>
