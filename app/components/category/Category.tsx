@@ -75,8 +75,8 @@ const Category = () => {
     ]
 
   return (
-    <div>
-        <div className='w-[80%] mx-auto text-center flex flex-col gap-8 my-12 md:my-24 lg:my-24 xl:my-28'>
+    <>
+        <div className='w-[90%] md:w-[80%] mx-auto text-center flex flex-col gap-8 my-12 md:my-24 lg:my-24 xl:my-28'>
             <p className='uppercase font-semibold text-base md:text-lg mt-7 text-[#5E6282]'>Category</p>
             <p className='capitalize font-bold text-4xl md:text-5xl lg:text-5xl text-[#14183E]' style={{ fontFamily: 'Volkhov' }}>
                 We Offer Best Services
@@ -86,7 +86,7 @@ const Category = () => {
             </div>
         </div>
         <div >
-            <div className='w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mb-10'>
+            <div className='w-[95%] md:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mb-10'>
                 {categories.map((category) => (
                     <CategoryItem key={category.id}
                     icon={category.icon} 
@@ -96,7 +96,7 @@ const Category = () => {
                 ))}
             </div>
         </div>
-    </div>
+    </>
   )
 }
 
