@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { BsHouse, BsHouseAddFill } from "react-icons/bs";
 
 const EasyAndFast = () => {
     return ( 
@@ -36,7 +37,41 @@ const EasyAndFast = () => {
             </div>
             <div className="flex-1 flex flex-col gap-6 lg:gap-11">
                 <p className='uppercase font-semibold text-base md:text-lg mt-7 text-[#5E6282]'>Easy and fast</p>
-
+                <div className=" flex flex-row justify-center items-center">
+                    <div className="bg-neutral-100 p-7 rounded-3xl shadow-2xl">
+                        <Image src="/image/house1.jpg" alt="right img" height={330} width={300} className=" rounded-3xl" />
+                        <div className="flex flex-col gap-3 mt-3">
+                            <p className="font-bold text-base">Trip to Greece</p>
+                            <p className="text-gray-500">14-29 June| by Robbin j</p>
+                            <div className="text-gray-100 flex flex-row gap-3">
+                                <div className=" bg-gray-400 rounded-full h-7 w-7 p-2 flex justify-center items-center">
+                                    <BsHouseAddFill />
+                                </div>
+                                <div className=" bg-gray-400 rounded-full h-7 w-7 p-2 flex justify-center items-center">
+                                    <BsHouseAddFill />
+                                </div>
+                                <div className=" bg-gray-400 rounded-full h-7 w-7 p-2 flex justify-center items-center">
+                                    <BsHouseAddFill />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            <div className="relative">
+                                <div className="flex flex-row gap-3 bg-neutral-100 rounded-3xl py-5 px-10 shadow-2xl absolute -left-32 top-14">
+                                    <div className=" h-12 w-12 relative">
+                                        <Image src="/image/house1.jpg" alt="right img" fill className=" rounded-full" />
+                                    </div>
+                                    <div>
+                                        <p className="text-gray-500 text-sm">OnGoing</p>
+                                        <p className="font-bold">Trip to Rome</p>
+                                        <p className="font-bold text-sm mt-3">
+                                            <span className=" text-violet-500">40%</span>
+                                            <span className="font-semibold">completed</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
             </div>
         </div>
      );
